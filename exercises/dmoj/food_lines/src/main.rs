@@ -30,5 +30,14 @@
 extern crate dmoj;
 
 fn main() {
-    todo!("pending solution!")
+    let (nrows, m) = scan!(u8, u8);
+
+    let mut persons_per_row:  Vec<u8> = Vec::with_capacity(nrows.into());
+
+    for _ in 0..nrows {
+        persons_per_row.push(scan!(u8));
+    }
+
+        
+
 }
